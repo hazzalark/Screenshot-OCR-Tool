@@ -8,15 +8,15 @@ Built as a final year computing project (CI601) at the University of Brighton.
 
 ## Features
 
-- **Visual region selector** — click and drag to select any area of your screen
-- **Tesseract OCR** — accurate text extraction powered by the Tesseract LSTM engine
-- **Image preprocessing** — greyscale conversion, noise reduction, Otsu binarisation and contrast enhancement to improve accuracy on degraded text
-- **Live OCR visualiser** — watch bounding boxes drawn word by word, colour coded by confidence level
-- **PII detection and redaction** — automatically detects email addresses, UK phone numbers, UK postcodes and credit card numbers, with redaction enabled by default
-- **ML text categorisation** — classifies extracted text into Contact Information, Phone/Address, Code/Technical or Documentation using a pure Python TF-IDF and Naive Bayes classifier
-- **Multiple export formats** — clipboard, TXT, DOCX and JSON
-- **System tray application** — runs silently in the background, triggered via hotkey (default Ctrl+Shift+S) or tray right-click menu
-- **Standalone EXE** — no Python or Tesseract installation required
+- **Visual region selector** : click and drag to select any area of your screen
+- **Tesseract OCR** : accurate text extraction powered by the Tesseract LSTM engine
+- **Image preprocessing** : greyscale conversion, noise reduction, Otsu binarisation and contrast enhancement to improve accuracy on degraded text
+- **Live OCR visualiser** : watch bounding boxes drawn word by word, colour coded by confidence level
+- **PII detection and redaction** : automatically detects email addresses, UK phone numbers, UK postcodes and credit card numbers, with redaction enabled by default
+- **ML text categorisation** : classifies extracted text into Contact Information, Phone/Address, Code/Technical or Documentation using a pure Python TF-IDF and Naive Bayes classifier
+- **Multiple export formats** : clipboard, TXT, DOCX and JSON
+- **System tray application** : runs silently in the background, triggered via hotkey (default Ctrl+Shift+S) or tray right-click menu
+- **Standalone EXE** : no Python or Tesseract installation required
 
 ---
 
@@ -47,11 +47,11 @@ From the results window you can:
 - **Save As** — choose TXT, DOCX or JSON format and location
 
 ### Settings
-Right-click the tray icon and select **Settings** to configure:
+Right click the tray icon and select **Settings** to configure:
 - Enable or disable image preprocessing
 - Redact PII by default
 - Show or hide the live OCR visualiser
-- Auto-copy to clipboard after capture
+- Auto copy to clipboard after capture
 - Change the capture hotkey
 
 ---
