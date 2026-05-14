@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+
+# PyInstaller build artifacts
+build/
+dist/
+
+# Application runtime files
+settings.json
+error.log
+screenshots/
+ocr_output/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Distribution
+*.egg-info/
+*.egg
